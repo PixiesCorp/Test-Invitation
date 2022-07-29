@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Kalam:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./sass/style_location.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="main-container">
+    <h1 class="header--text">ceremonia religiosa</h1>
+    <div class="location-1" id="map"></div>
+    <h1 class="hour">Hora</h1>
+    <h3 class="hour--info">9:00pm-1:30am</h3>
+    <div class="ubication">
+      <a href="https://www.google.com.mx/maps/place/Santuario+de+San+Lorenzo/@31.7396798,-106.4272914,17z/data=!3m1!4b1!4m5!3m4!1s0x85d1e3d2eeb9533d:0xaad5a0375c25dfa1!8m2!3d31.7396764!4d-106.4250177" class="btn-location">Ubicacion</a>
+    </div>
+    <h1 class="header--text">Evento</h1>
+      <div class="location-1" id="map2"></div>
+      <div class="time">
+        <h1 class="hour">Hora</h1>
+        <h3 class="hour--info">9:00 pm a 1:30 am</h3>
+      </div>
+      <div class="ubication">
+        <a href="https://www.google.com.mx/maps/place/Nuv%C3%B3+Centro+de+Eventos/@31.6810951,-106.3917346,17z/data=!3m1!4b1!4m5!3m4!1s0x86e75c1f2d332d15:0x101557fd777a883b!8m2!3d31.6810951!4d-106.3895459" class="btn-location">Ubicacion</a>
+      </div>
+      <div class="fill"></div>
+      <div class="navigation">
+        <li class="list">
+          <a href="./index.html">
+            <span class="icon">
+              <img src="./sources/icons/home.svg" alt="" class="img active">
+            </span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="./index2.html">
+            <span class="icon">
+              <img src="./sources/icons/marker.svg" alt="" class="img">
+            </span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="./index4.html">
+            <span class="icon">
+              <img src="./sources/icons/check.svg" alt="" class="img">
+            </span>
+          </a>
+        </li>
+        <li class="list">
+          <a href="./index3.html">
+            <span class="icon">
+              <img src="./sources/icons/picture.svg" alt="" class="img">
+            </span>
+          </a>
+        </li>
+      </div>
+  </div>
+  
+
+  <script src="./js/app.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAxynDSNPkm8RgKJnY4ZgzZatgeZt7RHQQ&callback=iniciarMap"></script>
+</body>
+</html>
